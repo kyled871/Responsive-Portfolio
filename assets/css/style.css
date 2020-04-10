@@ -250,9 +250,9 @@ input[type=submit] {
   #masthead {
     position: static;
   }
+
   header {
     width: 100%;
-    position: static;
   }
   #logo {
     width: 100%;
@@ -266,6 +266,10 @@ input[type=submit] {
 
   #main-container {
     padding: 0;
+  }
+
+  .auth-image {
+    width: 100%;
   }
 
   input {
