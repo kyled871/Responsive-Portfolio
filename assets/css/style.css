@@ -247,6 +247,12 @@ input[type=submit] {
 /* phone size */
 @media screen and (max-width: 640px) {
 
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 5px;
+  }
+
   #masthead {
     position: static;
   }
@@ -258,7 +264,8 @@ input[type=submit] {
     width: 100%;
   }
   nav {
-    margin-right: 188px;
+    margin-right: 170px;
+    margin-bottom: 25px;
   }
   section {
     width: 100%;
@@ -274,5 +281,25 @@ input[type=submit] {
 
   input {
     margin-left: 40px;
+  }
+
+  .work {
+    width: 100%;
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  input {
+    margin-left: 0;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  .mainLink {
+    font-size: larger;
   }
 }
